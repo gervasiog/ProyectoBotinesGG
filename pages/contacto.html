@@ -3,31 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOTINES GG</title>
+    <title>CONTACTO</title>
+    <meta name="description" content="Dejanos tus datos, tu mail y hacenos llegar el mensaje que quieras a traves de la caja de texto ubicada abajo.">
+    <meta name="keywords" content="contactanos, conocenos, consultas, contacto, ayuda, soporte">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
 <body class="body">
 
     <header class="header">
-        <nav class="menu">
-            <div class="menu-logo">
-                <a href="../index.html">
-                    <img src="../images/logo-sin-fondo.png"  class="logo"> 
-                    </a>
-            </div>
-            
-            <div>
-                <h1 class="h1">BOTINES GG </h1>
-                <h2 class="h2">Tienda de botines de futbol</h2> 
-            </div>
-            
+      <nav class="menu">
+        <div class="menu-logo">
+          <div class="animacion-logo">
+            <a href="../index.html">
+              <img src="../images/logo-sin-fondo.png"  class="logo"> 
+              </a>
+          </div>
+        </div>
             
             <ul class="menu-list">
                 <li><a class="item-list" href="../index.html">Inicio</a></li>
-                <li><a class="item-list" href="../pages/productos.html">Productos</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pages/nike.html">NIKE</a></li>
+                    <li><a class="dropdown-item" href="../pages/adidas.html">ADIDAS</a></li>
+                    <li><a class="dropdown-item" href="../pages/puma.html">PUMA</a></li>
+                  </ul>
+                </li>
                 <li><a class="item-list" href="../pages/promociones.html">Promociones</a></li>
                 <li><a class="item-list" href="../pages/quienes-somos.html">Quienes somos</a></li>
                 <li><a class="item-list" href="../pages/contacto.html">Contacto</a></li>
@@ -39,21 +46,21 @@
 <main>
     <form class="formulario">
         <div class="nombre">
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <label for="exampleFormControlInput1" class="estilos-label">Nombre</label>
             <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
           </div>
           <div class="apellido">
-            <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-            <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <label for="exampleFormControlInput1" class="estilos-label">Apellido</label>
+            <input type="apellido" class="form-control" id="exampleFormControlInput2" placeholder="">
           </div>
           <div class="email">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <label for="exampleFormControlInput1" class="estilos-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="">
           </div>
           <div class="mensaje">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" class="estilos-label">mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button class="comprar-btn">Enviar</button>
+            <button class="comprar-boton">Enviar</button>
           </div>
 
 
@@ -62,14 +69,17 @@
 
 
 <footer class="footer">
-    <div class="redes-footer">
-        <a href="https://www.facebook.com/profile.php?id=100095371983282">
-            <img src="../images/footerfb.png" alt="facebook" />
-        </a>
-        <a href="https://www.instagram.com/botines_gg/">
-            <img src="../images/footerig.png" alt="instagram" />
-        </a>
-    </div>
+  <div class="redes-footer">
+    <a class="links-footer" href="https://www.facebook.com/profile.php?id=100095371983282">
+        <img src="../images/footerfb.png" alt="facebook" />
+    </a>
+    <a class="links-footer" href="https://www.instagram.com/botines_gg/">
+        <img src="../images/footerig.png" alt="instagram" />
+    </a>
+    <a class="links-footer" href="https://wa.me/3442584138">
+      <img src="../images/wsp.png" alt="whatsapp" />
+  </a>
+</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**QUIENES SOMOS**/
+.quienes-somos {
+  padding: 20px;
+}
+.quienes-somos .texto-quienes-somos {
+  padding: 20rem;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-family: "Bebas";
+}
+@media (max-width: 768px) {
+  .quienes-somos .texto-quienes-somos {
+    padding: 8%;
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+/**PROMOCIONES**/
+.precio {
+  font-family: "Bebas";
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+
+.descuento {
+  font-family: "Bebas";
+  font-size: 1.5rem;
+}
+
+/**PRODUCTOS**/
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.tarjetas .tarjeta {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+.tarjetas .tarjeta:hover {
+  border-color: red;
+}
+.tarjetas .productos {
+  max-width: 100%;
+  height: auto;
+}
+.tarjetas .comprar-btn {
+  background-color: black;
+  color: #B10F2E;
+  font-family: "Bebas";
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-top: 10px;
+}
+.tarjetas .comprar-btn:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+.tarjetas .talles {
+  display: flex;
+  gap: 0.2rem;
+}
+.tarjetas .tarjeta-talle:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+.tarjetas .tarjeta-talle {
+  background-color: black;
+  color: #B10F2E;
+  font-family: "Bebas";
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .tarjetas .tarjeta p,
+  .tarjetas .tarjeta .talles,
+  .tarjetas .tarjeta .comprar-btn {
+    display: none;
+  }
+  .tarjetas .tarjeta img.productos {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/**MAIN INDEX**/
+.main-index {
+  display: flex;
+  justify-content: center;
+}
+
+/**HEADER**/
+.body {
+  background-color: #BAB4B4;
+}
+.body .menu {
+  background: rgb(61, 100, 214);
+  background: linear-gradient(0deg, rgb(61, 100, 214) 0%, rgb(177, 15, 46) 100%);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid;
+}
+.body .menu-logo {
+  transition: 1s;
+}
+.body .logo {
+  width: 200px;
+  height: 200px;
+}
+.body .animacion-logo:hover {
+  transform: scale(1.1);
+}
+.body .menu-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: start;
+  align-items: stretch;
+  font-family: "Bebas";
+  font-size: 1.5rem;
+}
+.body .menu-list > li:hover > a {
+  color: white;
+}
+.body .nav-link {
+  color: black;
+}
+.body .dropdown-menu {
+  text-decoration: none;
+  color: black;
+}
+.body .item-list {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 1465px) {
+  .body .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .body .menu {
+    flex-direction: column;
+  }
+  .body .menu-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .body .h1, .body .h2 {
+    text-align: center;
+    margin: 5px 0;
+  }
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+.img {
+  width: 100%;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas";
+  font-size: 5rem;
+}
+
+.h2 {
+  font-family: "Bebas";
+  text-align: center;
+}
+
+.p {
+  font-family: "Bebas";
+  font-size: 1.5rem;
+}
+
+/**FORMULARIO**/
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.formulario .estilos-label {
+  font-family: "Bebas";
+  font-size: 2rem;
+}
+.formulario .comprar-boton {
+  background-color: black;
+  color: #B10F2E;
+  font-family: "Bebas";
+  font-size: 1.5rem;
+  width: 500px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.formulario .form-control {
+  width: 500px;
+  height: 70px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  outline: none;
+}
+.formulario .form-control:hover {
+  border-color: red;
+}
+.formulario #exampleFormControlTextarea1 {
+  width: 500px;
+  height: 300px;
+}
+@media (max-width: 1465px) {
+  .formulario .form-control {
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 1465px) {
+  .formulario .comprar-boton {
+    width: 220px;
+    height: auto;
+  }
+}
+@media (max-width: 1465px) {
+  .formulario #exampleFormControlTextarea1 {
+    width: 220px;
+    height: 88.67px;
+  }
+}
+
+/**FOOTER**/
+.footer {
+  background-color: rgb(61, 100, 214);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-top: solid;
+}
+.footer .redes-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer .links-footer {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.footer .links-footer {
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+.footer .links-footer:hover {
+  border-color: red;
+}/*# sourceMappingURL=estilos.css.map */

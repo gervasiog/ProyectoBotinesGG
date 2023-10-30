@@ -1,0 +1,33 @@
+/**FOOTER**/
+
+
+.footer {
+    background-color: rgb(61,100,214);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-top: solid;
+    
+
+    .redes-footer {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    
+    }
+    
+    .links-footer {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        
+    }
+    
+    .links-footer {
+    border: 2px solid transparent; 
+    transition: border-color 0.3s; 
+    }
+
+    .links-footer:hover {
+    border-color: red; 
+    }
+
+    }

@@ -1,0 +1,72 @@
+/**FORMULARIO**/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+
+
+.estilos-label {
+    font-family: "Bebas";
+    font-size: 2rem;
+}
+
+.comprar-boton {
+    background-color: black;
+    color: #B10F2E;
+    font-family: "Bebas";
+    font-size: 1.5rem;
+    width: 500px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 500px;
+    height: 70px;
+    border: 1px solid #ccc;  
+    transition: border-color 0.3s; 
+    outline: none; 
+
+}
+
+.form-control:hover {
+    border-color: red;
+}
+
+#exampleFormControlTextarea1 {
+    width: 500px;
+    height: 300px;
+}
+
+
+@media (max-width: 1465px) {
+    .form-control {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 1465px) {
+    .comprar-boton {
+        width: 220px;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1465px) {
+    #exampleFormControlTextarea1 {
+        width: 220px;
+        height: 88.67px;
+    }
+}
+        
+}
+
+

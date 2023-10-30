@@ -1,0 +1,90 @@
+/**PRODUCTOS**/
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 20px; 
+    
+
+
+    .tarjeta {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        transition: border-color 0.3s;
+        
+    }
+
+    .tarjeta:hover {
+        border-color: red;
+    }
+    
+    .productos {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .comprar-btn {
+        background-color: black;
+        color: #B10F2E;
+        font-family: $fuentePrincipal;
+        font-size: 1.5rem;
+        padding: 10px 20px; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: border-color 0.3s;
+        margin-top: 10px;
+        
+    }
+
+    .comprar-btn:hover {
+        border: 2px solid red; 
+        cursor: pointer;
+    }
+    
+    .talles {
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    .tarjeta-talle:hover {
+        border: 2px solid red; 
+        cursor: pointer; 
+    }
+    
+    .tarjeta-talle {
+        background-color: black;
+        color: #B10F2E;
+        font-family: $fuentePrincipal;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+
+    @media (max-width: 768px) {
+        .tarjeta p,
+        .tarjeta .talles,
+        .tarjeta .comprar-btn
+
+        {
+            display: none;
+        }
+    
+        .tarjeta img.productos {
+            width: 100%;
+            height: auto;
+        }
+
+    
+    } 
+    
+    
+}
+

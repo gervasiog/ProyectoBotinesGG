@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+
+.img {
+    width: 100%;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-family: $fuentePrincipal;
+    font-size: 5rem;
+}
+
+.h2 {
+    font-family: $fuentePrincipal;
+    text-align: center;
+}
+
+.p {
+    font-family: $fuentePrincipal;
+    font-size: 1.5rem;
+}
+
+

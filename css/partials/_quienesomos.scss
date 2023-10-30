@@ -1,0 +1,25 @@
+/**QUIENES SOMOS**/
+
+.quienes-somos {
+    padding: 20px;
+   
+.texto-quienes-somos {
+    padding: 20rem;
+    width: 60%; 
+    margin: 0 auto; 
+    font-size: 3rem; 
+    font-family: $fuentePrincipal;
+    
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .texto-quienes-somos {
+        padding: 8%;
+        width: 90%; 
+        font-size: 14px; 
+    }
+}
+}
