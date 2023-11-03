@@ -30,14 +30,13 @@
 
 
 
-
-
-
 }
 
 @media (max-width: 768px) {
 .quienes-somos {
   flex-direction: column;
+  overflow-x: hidden;
+  margin: auto;
 }
 
 .texto-quienes-somos,
