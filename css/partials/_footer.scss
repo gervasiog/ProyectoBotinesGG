@@ -2,9 +2,8 @@
 
 
 .footer {
-    background-color: rgb(61,100,214);
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    
+    height: 50%;
     border-top: solid;
     
 
@@ -13,6 +12,11 @@
         justify-content: center;
         gap: 1rem;
     
+    }
+
+    .logos-redes {
+        width: 100%;
+        height: auto;
     }
     
     .links-footer {

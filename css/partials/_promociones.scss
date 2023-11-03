@@ -1,4 +1,11 @@
 /**PROMOCIONES**/
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
 .precio {
     font-family: "Bebas";
     font-size: 1.5rem;
@@ -9,3 +16,4 @@
     font-family: "Bebas";
     font-size: 1.5rem;
 }
+
