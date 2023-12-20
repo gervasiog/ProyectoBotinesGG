@@ -21,7 +21,7 @@
     }
 
     .tarjeta:hover {
-        border-color: red;
+        border-color: #fcbf49;
     }
     
     .productos {
@@ -31,7 +31,7 @@
     
     .comprar-btn {
         background-color: black;
-        color: #B10F2E;
+        color: #fcbf49;
         font-family: $fuentePrincipal;
         font-size: 1.5rem;
         padding: 10px 20px; 
@@ -45,7 +45,7 @@
     }
 
     .comprar-btn:hover {
-        border: 2px solid red; 
+        border: 2px solid #fcbf49; 
         cursor: pointer;
     }
     
@@ -55,13 +55,13 @@
     }
 
     .tarjeta-talle:hover {
-        border: 2px solid red; 
+        border: 2px solid #fcbf49; 
         cursor: pointer; 
     }
     
     .tarjeta-talle {
         background-color: black;
-        color: #B10F2E;
+        color: #fcbf49;
         font-family: $fuentePrincipal;
         font-size: 1.5rem;
         padding: 10px 12px;

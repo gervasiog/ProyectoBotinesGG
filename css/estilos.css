@@ -98,7 +98,7 @@
   transition: border-color 0.3s;
 }
 .tarjetas .tarjeta:hover {
-  border-color: red;
+  border-color: #fcbf49;
 }
 .tarjetas .productos {
   max-width: 100%;
@@ -106,7 +106,7 @@
 }
 .tarjetas .comprar-btn {
   background-color: black;
-  color: #B10F2E;
+  color: #fcbf49;
   font-family: "Bebas";
   font-size: 1.5rem;
   padding: 10px 20px;
@@ -118,7 +118,7 @@
   margin-top: 10px;
 }
 .tarjetas .comprar-btn:hover {
-  border: 2px solid red;
+  border: 2px solid #fcbf49;
   cursor: pointer;
 }
 .tarjetas .talles {
@@ -126,12 +126,12 @@
   gap: 0.2rem;
 }
 .tarjetas .tarjeta-talle:hover {
-  border: 2px solid red;
+  border: 2px solid #fcbf49;
   cursor: pointer;
 }
 .tarjetas .tarjeta-talle {
   background-color: black;
-  color: #B10F2E;
+  color: #fcbf49;
   font-family: "Bebas";
   font-size: 1.5rem;
   padding: 10px 12px;
@@ -172,15 +172,16 @@
 
 /**HEADER**/
 .body {
-  background-color: rgb(61, 100, 214);
+  background: rgb(56, 182, 255);
+  background: linear-gradient(90deg, rgb(56, 182, 255) 0%, rgb(56, 182, 255) 50%, rgb(255, 255, 255) 100%);
 }
 .body .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid;
-  background: rgb(61, 100, 214);
-  background: linear-gradient(0deg, rgb(61, 100, 214) 0%, rgb(177, 15, 46) 100%);
+  background: rgb(56, 182, 255);
+  background: linear-gradient(90deg, rgb(56, 182, 255) 0%, rgb(56, 182, 255) 50%, rgb(255, 255, 255) 100%);
   padding: 0.5rem;
 }
 .body .nav-link:hover {
@@ -277,7 +278,7 @@
 }
 .formulario .comprar-boton {
   background-color: black;
-  color: #B10F2E;
+  color: #fcbf49;
   font-family: "Bebas";
   font-size: 1.5rem;
   width: 500px;
@@ -295,7 +296,7 @@
   outline: none;
 }
 .formulario .form-control:hover {
-  border-color: red;
+  border-color: #fcbf49;
 }
 .formulario #exampleFormControlTextarea1 {
   width: 500px;
@@ -356,5 +357,5 @@
   transition: border-color 0.3s;
 }
 .footer .links-footer:hover {
-  border-color: red;
+  border-color: #fcbf49;
 }/*# sourceMappingURL=estilos.css.map */

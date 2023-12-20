@@ -2,7 +2,8 @@
 
   
 .body {
-    background-color:rgb(61, 100, 214,1);
+        background: rgb(56,182,255);
+        background: linear-gradient(90deg, rgba(56,182,255,1) 0%, rgba(56,182,255,1) 50%, rgba(255,255,255,1) 100%);
 
 
     .navbar {
@@ -10,8 +11,8 @@
         align-items: center;
         justify-content: space-between;
         border-bottom: solid;
-        background: rgb(61,100,214);
-        background: linear-gradient(0deg, rgba(61,100,214,1) 0%, rgba(177,15,46,1) 100%);
+        background: rgb(56,182,255);
+        background: linear-gradient(90deg, rgba(56,182,255,1) 0%, rgba(56,182,255,1) 50%, rgba(255,255,255,1) 100%);
         padding: 0.5rem;
         
     }
